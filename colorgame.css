@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background-color: #232323;
+  font-family: "Nunito"; 
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+
+
+  background-color: steelblue;
+  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.1;
+  color: white;
+}
+
+button {
+  border: none;
+  height: 100%;
+
+  font-size: inherit;
+  font-weight: 700;
+  color: steelblue;
+  letter-spacing: 1px;
+
+  background: none;
+  text-transform: uppercase;
+  outline: none;
+  transition: all .25s;
+  -webkit-transition: all, .25s;
+  -moz-transition: all, .25s;
+}
+
+button:hover {
+  color: white;
+  background-color: steelblue;
+}
+
+.square {
+  width: 30%;
+  margin: 1.66%;
+  padding-bottom: 30%;
+  float: left;
+
+  border-radius: 12%;
+  background-color: purple;
+  transition: background-color, .25s;
+  -webkit-transition: background-color, .25s;
+  -moz-transition: background-color, .25s;
+}
+
+.selected {
+  color: white;
+  background-color: steelblue;
+}
+
+#container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+#stripe {
+  background-color: white;
+  height: 30px;
+  text-align: center;
+  color: #232323;
+}
+
+
+#colorDisplay {
+  font-size: 200%;
+}
+
+#message {
+  width: 20%;
+  display: inline-block;
+}
+
